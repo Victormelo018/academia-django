@@ -1,0 +1,21 @@
+/* Deixa os cards do admin mais “clean” */
+.content-wrapper .card {
+    border-radius: 14px;
+  }
+  
+  /* Título do topo */
+  .brand-link .brand-text {
+    font-weight: 700;
+    letter-spacing: .3px;
+  }
+  
+  /* Tabelas mais compactas */
+  table.table td, table.table th {
+    vertical-align: middle;
+  }
+  
+  /* Botões da listagem mais visíveis */
+  .object-tools a {
+    border-radius: 10px !important;
+  }
+  

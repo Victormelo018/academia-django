@@ -1,0 +1,48 @@
+/* Deixa os cards do admin mais “clean” */
+.content-wrapper .card {
+    border-radius: 14px;
+  }
+  
+  /* Título do topo */
+  .brand-link .brand-text {
+    font-weight: 700;
+    letter-spacing: .3px;
+  }
+  
+  /* Tabelas mais compactas */
+  table.table td, table.table th {
+    vertical-align: middle;
+  }
+  
+  /* Botões da listagem mais visíveis */
+  .object-tools a {
+    border-radius: 10px !important;
+  }
+  
+
+  /* TESTE: mostra uma etiqueta no canto se este CSS carregou */
+body::before{
+    content: "CSS OK";
+    position: fixed;
+    top: 8px; left: 8px;
+    background: #222; color: #fff;
+    padding: 4px 8px; z-index: 99999;
+    font-weight: 700; border-radius: 6px;
+  }
+  
+  /* TESTE: aparece "CSS OK" se este arquivo carregou */
+body::before{
+    content: "CSS OK";
+    position: fixed;
+    top: 8px; left: 8px;
+    background: #222; color: #fff;
+    padding: 4px 8px; z-index: 99999;
+    font-weight: 700; border-radius: 6px;
+  }
+  
+  /* Seu estilo */
+  .content-wrapper .card { border-radius: 14px !important; }
+  .brand-link .brand-text { font-weight: 700; letter-spacing: .3px; }
+  table.table td, table.table th { vertical-align: middle; }
+  .object-tools a { border-radius: 10px !important; }
+  
